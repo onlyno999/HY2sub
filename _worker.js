@@ -10,6 +10,8 @@ async function handleRequest(request, env, ctx) {
     { url: 'https://raw.githubusercontent.com/Alvin9999/pac2/master/hysteria2/13/config.json',type: "hysteria2"},
     { url: 'https://gitlab.com/free9999/ipupdate/-/raw/master/hysteria2/config.json',type: "hysteria2"},
     { url: 'https://gitlab.com/free9999/ipupdate/-/raw/master/hysteria2/2/config.json',type: "hysteria2"},
+    { url: 'https://fastly.jsdelivr.net/gh/Alvin9999/pac2@latest/hysteria2/2/config.json', type: "hysteria2" },
+    { url: 'https://fastly.jsdelivr.net/gh/Alvin9999/pac2@latest/hysteria2/config.json', type: "hysteria2" }, 
   ];
 
   let siteshy = [
@@ -19,12 +21,15 @@ async function handleRequest(request, env, ctx) {
     { url: "https://raw.githubusercontent.com/Alvin9999/pac2/master/hysteria/13/config.json", type: "hysteria" },
     { url: "https://gitlab.com/free9999/ipupdate/-/raw/master/hysteria/config.json", type: "hysteria" },
     { url: "https://gitlab.com/free9999/ipupdate/-/raw/master/hysteria/2/config.json", type: "hysteria" },
+    { url: "https://fastly.jsdelivr.net/gh/Alvin9999/pac2@latest/hysteria/config.json", type: "hysteria" },
+    { url: "https://fastly.jsdelivr.net/gh/Alvin9999/pac2@latest/hysteria/2/config.json", type: "hysteria" },
   ];
 
   let sitessb = [
     { url: "https://raw.githubusercontent.com/Alvin9999/pac2/master/singbox/config.json", type: "hysteria" },
     { url: "https://raw.githubusercontent.com/Alvin9999/pac2/master/singbox/1/config.json", type: "hysteria" },
     { url: "https://gitlab.com/free9999/ipupdate/-/raw/master/singbox/config.json",type: "hysteria"},
+    { url: "https://fastly.jsdelivr.net/gh/Alvin9999/pac2@latest/singbox/config.json", type: "singbox" },
   ];
 
   let responses = []; //订阅集合
